@@ -10,9 +10,5 @@ public class HelloWorldServlet extends HttpServlet
     PrintWriter out = res.getWriter();
     out.println( "Hello, Mr. Good mORNING" );
     out.close();
- public void service( HttpServletRequest req, HttpServletResponse res ) throws IOException {
-    PrintWriter out = res.getWriter();
-    out.println( "Hello, Mr. Good afternoon" );
-    out.close();
   }
 }
