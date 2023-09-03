@@ -12,5 +12,3 @@ public class HelloWorldServlet extends HttpServlet
     out.close();
   }
 }
-Code error practice
-  Let's see the code error
